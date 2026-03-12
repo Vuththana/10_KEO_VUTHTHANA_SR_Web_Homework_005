@@ -1,9 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import { getData } from '../utils/getData'
-import Image from 'next/image';
 import ItemModal from './ui/ItemModal';
-import { Bookmark, BookMarked, SortAsc, SortDesc } from 'lucide-react';
 import CardComponent from './CardComponent';
 import ButtonComponent from './ButtonComponent';
 

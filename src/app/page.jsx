@@ -6,7 +6,7 @@ import ItemComponent from './components/ItemComponent';
 import { getData } from './utils/getData';
 
 export default function Home() {
-  const props = getData(true);
+  const props = getData(true);  
   return (
     <div className='flex flex-col h-screen'>
       <NavbarComponent />
