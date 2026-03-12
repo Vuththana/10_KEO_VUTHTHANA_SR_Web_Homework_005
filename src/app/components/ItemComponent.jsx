@@ -2,8 +2,10 @@ import React from 'react'
 import ItemClient from './ItemClient';
 
 
-export default function ItemComponent({props}) {
+export default function ItemComponent({ props }) {
     return (
-        <ItemClient props={props}/>
+        <>
+            <ItemClient props={props} />
+        </>
     )
 }
